@@ -14,9 +14,4 @@ public class AttractParticlesByDistance : MonoBehaviour {
 	void Update () {
 		pe.worldVelocity = transform.position;
 	}
-	
-	void OnMouseDown() {
-		Debug.Log("Mouse button pressed");
-		
-	}
 }
